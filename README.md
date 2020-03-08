@@ -34,3 +34,7 @@ optool Mul 5 6
 optool Div 17 3
 5
 ```
+
+## install
+
+https://github.com/HikaruEgashira/optool/actions?query=is%3Asuccess
