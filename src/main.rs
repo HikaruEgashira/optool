@@ -17,7 +17,7 @@ impl<'a> Application<'a> {
             "Sub" => println!("{}", a - b),
             "Mul" => println!("{}", a * b),
             "Div" => println!("{}", a / b),
-            _ => println!("Error op can available Add Sub Mul Div"),
+            _ => eprintln!("Error op can available Add Sub Mul Div"),
         }
     }
 }
