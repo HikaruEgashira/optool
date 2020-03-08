@@ -18,3 +18,19 @@ ARGS:
     <a>     number
     <b>     number
 ```
+
+## usage
+
+```
+optool Add 3 4
+7
+
+optool Sub 3 7
+-4
+
+optool Mul 5 6
+30
+
+optool Div 17 3
+5
+```
