@@ -4,7 +4,7 @@ A command-line tool for calc
 
 ```
 optool 0.1.0
-A command-line tool for string substitutions
+A command-line tool for calc
 
 USAGE:
     optool <op> <a> <b>
