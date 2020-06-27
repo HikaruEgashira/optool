@@ -9,8 +9,8 @@ struct Application<'a> {
 
 impl<'a> Application<'a> {
     fn run(&self) {
-        let a: i32 = self.a.parse().unwrap();
-        let b: i32 = self.b.parse().unwrap();
+        let a: i64 = self.a.parse::<i64>().expect("a cannot parse as i64");
+        let b: i64 = self.b.parse::<i64>().expect("b cannot parse as i64");
 
         match self.op {
             "Add" => println!("{}", a + b),
